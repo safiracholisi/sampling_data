@@ -8,7 +8,7 @@ in2csv ./data/weather_data.xlsx --sheet "weather_2014" > ./data/weather_2014.csv
 in2csv ./data/weather_data.xlsx --sheet "weather_2015" > ./data/weather_2015.csv
 
 # Gabungkan file-file CSV ke dalam satu file CSV dengan nama weather.csv
-csvstack ./data/weather_2014.csv ./data/weather_2015 csv > ./data/weather.csv
+csvstack ./data/weather_2014.csv ./data/weather_2015.csv > ./data/weather.csv
 
 # Hapus file awal data
 rm ./data/weather_data.xlsx
