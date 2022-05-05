@@ -1,4 +1,4 @@
-# sampling_data
+# sampling.sh
 
 Script name: sampling.sh
 
